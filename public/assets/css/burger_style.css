@@ -1,22 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f41b35;
     color: #ffcd60;
     font-family: 'Anton', sans-serif;
 }
 
+#burgerTitle {
+    font-size: 60px;
+    margin: 10px;
+    padding: 5px;
+}
+
+#burgerSubmit {
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 hr {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     background-color: #ffcd60;
 }
 
 li {
     margin-top: 2px;
+}
+
+#burgerBox {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
 }
