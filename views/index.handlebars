@@ -24,22 +24,18 @@
       <h2>Burger List!</h2>
     </div>
   </div>
-
+  
   <br>
 
   <div class="row">
-    <div class="col-3">
+    <div class="col-6">
       <h2>Burgers that are not devoured!</h2>
-    </div>
-    <div class="col-3">
       <ul>
         {{#each burgers}} {{#unless burger_devoured}} {{> burgers/burger-block hungry=true}} {{/unless}} {{/each}}
       </ul>
     </div>
-    <div class="col-3">
+    <div class="col-6">
       <h2>Burgers that are devoured!</h2>
-    </div>
-    <div class="col-3">
       <ul>
         {{#each burgers}} {{#if burger_devoured}} {{> burgers/burger-block hungry=false}} {{/if}} {{/each}}
       </ul>
