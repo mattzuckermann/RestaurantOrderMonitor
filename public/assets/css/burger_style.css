@@ -12,6 +12,7 @@ body {
     font-size: 60px;
     margin: 10px;
     padding: 5px;
+    -webkit-text-stroke: black 3px;
 }
 
 #burgerSubmit {
@@ -24,12 +25,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    width: 240px;
+    width: 280px;
 }
 
 hr {
     width: 100%;
     background-color: #ffcd60;
+    height: 2px;
 }
 
 li {
@@ -43,9 +45,23 @@ li {
 }
 
 .devouredTitle {
-    text-decoration: underline;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
 }
 
 input {
     text-align: center;
+}
+
+h4 {
+    -webkit-text-stroke: black 2px;
+}
+
+#notHighlight {
+    color: black;
+    -webkit-text-stroke: #ffcd60 1px;
+}
+
+.roundedElement {
+    border-radius: 5%;
 }

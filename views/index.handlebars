@@ -14,11 +14,11 @@
             <img src="/assets/img/burger.PNG" alt="burger-image">
           </div>
           <div>
-            <button id="burgerSubmit" type="submit">
+            <button class="roundedElement" id="burgerSubmit" type="submit">
               Add Burger :
             </button>
             <span>
-              <input type="text" id="ca" placeholder="Enter Your Order Here" name="burger_name">
+              <input class="roundedElement" type="text" id="ca" placeholder="Enter Your Order Here" name="burger_name">
             </span>
           </div>
         </div>
@@ -52,13 +52,13 @@
       <!-- Empty div -->
     </div>
     <div class="col-4">
-      <h4 class="devouredTitle">Burgers that are not devoured!</h4>
+      <h4 class="devouredTitle">Burgers that <span id="notHighlight"> are not </span>devoured!</h4>
       <ol>
         {{#each burgers}} {{#unless burger_devoured}} {{> burgers/burger-block hungry=true}} {{/unless}} {{/each}}
       </ol>
     </div>
     <div class="col-4">
-      <h4 class="devouredTitle">Burgers that are devoured!</h4>
+      <h4 class="devouredTitle">Burgers that <span id="notHighlight"> are </span>devoured!</h4>
       <ol>
         {{#each burgers}} {{#if burger_devoured}} {{> burgers/burger-block hungry=false}} {{/if}} {{/each}}
       </ol>
