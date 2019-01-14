@@ -23,7 +23,7 @@ $(function () {
 
   $("#burgerSubmit").on("click", function (event) {
     if ($("#ca").val() === "") {
-      alert("Add burger input field cannot be empty! Please try again.")
+      alert("The 'Add Burger' input field cannot be empty! Please try again.")
     } else {
       event.preventDefault();
 
