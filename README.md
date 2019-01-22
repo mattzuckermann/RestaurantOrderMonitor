@@ -11,8 +11,9 @@ This project is replicating the format of an order monitor like you'd find at ma
 
 ### Text Walk Through:
 
-Interacting with the MySQL database "burgers_db," the app uses tracks which burgers shows which burgers have yet to be eaten and which
-and selection data of the user, which then matches you with the closest individual score in the friends.js JSON file.
+Interacting with the MySQL database "burgers_db," the app tracks which burgers have been devoured or not devoured based on a true/false column in MySQL. The code uses binaries of "0" (false) and "1" (true) to discern which is true of a particular burger. Hitting the "DEVOUR IT!" button next to the respective burger in the "Burgers that are not devoured!" column will change the "0" to "1" in the code and update the data base with a "true" statement in the second column of the database (as can be seen in the Database Table Reference below).
+
+To add a new burger, one simply fills in the form with the name the new burger would like to hold and hit the "Add Burger:" button.
 
 ### Data Table Reference:
 
@@ -23,7 +24,6 @@ Veggie | true
 Steak | false
 
 ---
-
 
 ### Deployment
 
