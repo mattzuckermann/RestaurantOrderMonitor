@@ -27,5 +27,4 @@ Steak | false
 
 ### Deployment
 
-My deployed project can be seen on Heroku at the link below:
-https://eat-da-burger-zuckermann.herokuapp.com/
+My deployed project can be seen on Heroku at the link [here](https://eat-da-burger-zuckermann.herokuapp.com/)
