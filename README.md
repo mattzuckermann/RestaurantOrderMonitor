@@ -17,7 +17,7 @@ To add a new burger, one simply fills in the form with the name the new burger w
 
 ### Data Table Reference:
 
-Burger Name | Burger Devoured?
+Burger Name | Burger Devoured
 --- | ---
 Cheese | false
 Veggie | true
